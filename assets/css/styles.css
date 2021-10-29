@@ -315,11 +315,29 @@ button {
     background-color: var(--first-color-alt);
 }
 
+.button__icon {
+    font-size: 1.25rem;
+}
+
 .button--ghost {
     border: 2px solid;
     background-color: transparent;
     border-radius: 3rem;
     padding: .75rem 1.5rem;
+}
+
+.button--ghost:hover {
+    background: none;
+}
+
+.button--link {
+    color: var(--title-color);
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
 }
 
 
